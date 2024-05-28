@@ -1,0 +1,7 @@
+<script>
+    navigator.clipboard.writeText('$ticket_id').then(function() {
+        alert('Ticket Booked Successfully. Your ticket ID is: ' + '$ticket_id' + '. It has been copied to the clipboard.');
+    }, function(err) {
+        alert('Ticket booked successfully. However, there was an error copying the ticket ID to the clipboard. Your ticket ID is: ' + '$ticket_id');
+    });
+</script>

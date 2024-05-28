@@ -1,0 +1,130 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 20px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: calc(100% - 40px);
+    margin: auto; /* Center the header */
+}
+
+header img {
+    height: 40px;
+}
+
+header .profile {
+    display: flex;
+    align-items: center;
+}
+
+header .profile img {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+header .profile span {
+    margin-left: 10px;
+    font-weight: 500;
+}
+
+.container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    max-width: 450px;
+    width: 100%;
+    text-align: center;
+    margin: 20px auto 0; /* Adjust margin to center the form */
+}
+
+.container h2 {
+    margin-bottom: 25px;
+    color: #333;
+    font-weight: 500;
+}
+
+.container label {
+    display: block;
+    margin-bottom: 10px;
+    color: #555;
+    text-align: left;
+}
+
+.container input[type="text"],
+.container input[type="email"],
+.container input[type="number"],
+.container input[type="date"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.container input[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.container input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.toggle-link {
+    text-align: center;
+    display: block;
+    margin-top: 20px;
+    color: #007bff;
+    cursor: pointer;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.toggle-link:hover {
+    color: #0056b3;
+}
+
+.username {
+    font-size: 16px;
+    font-weight: bold;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: 150px; /*Adjust this */
+}
+
+.username.long {
+    margin-left: 3px; /*Adjust this */
+}
+
+.ticket-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.ticket-button:hover {
+    background-color: #0056b3;
+}
